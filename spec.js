@@ -5,5 +5,4 @@ describe('Demo App', () => {
         browser.get('http://angularjs.org/');
     });
         
-    
-});
+    });
