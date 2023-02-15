@@ -2,7 +2,7 @@
 FROM node:14
 
 # Set working directory
-WORKDIR /automation-demo
+WORKDIR '/automation-demo'
 
 # Install necessary packages
 RUN apt-get update && \
