@@ -2,7 +2,7 @@
 FROM node:14
 
 # Set working directory
-WORKDIR '/automation-demo'
+WORKDIR /automation-demo
 
 # Install necessary packages
 RUN apt-get update && \
@@ -18,8 +18,6 @@ RUN apt-get update && \
 
 # Copy project files
 COPY . .
-
-RUN cd automation-demo
 
 # Run npm install
 RUN npm install
