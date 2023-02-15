@@ -1,0 +1,22 @@
+{
+  "name": "gmail-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "author": "nandakumar",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.21.0",
+    "dotenv": "^16.0.3",
+    "jasmine-allure-reporter": "^1.0.2"
+  },
+  "devDependencies": {
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  }
+}
