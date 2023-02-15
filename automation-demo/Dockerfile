@@ -19,6 +19,8 @@ RUN apt-get update && \
 # Copy project files
 COPY . .
 
+RUN cd automation-demo
+
 # Run npm install
 RUN npm install
 
